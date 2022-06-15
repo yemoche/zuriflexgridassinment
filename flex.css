@@ -1,0 +1,92 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    background-color:black;
+    max-width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.made{
+    width: 100%;
+    background-color:#e6e6e6;
+    margin: auto;
+    display: flex; 
+   display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    flex: 1, 1, 0;
+    height: 40vh
+}
+.sedan{
+    background-color:  hsl(24, 86%, 58%) ;
+    padding: 2em;
+    width:25%;
+    margin-left: 5px
+}
+.sedan h1{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.sedan button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 12px;
+    border-color: hsl(24, 86%, 58%) ;
+    color: hsl(24, 86%, 58%)
+}
+
+.suv{
+    background-color:  hsl(248, 32%, 49%) ;
+    padding: 2em;
+    width:25%
+}
+.suv h1{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.suv button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 12px;
+    border-color: hsl(248, 32%, 49%) ;
+    color: hsl(248, 32%, 49%)
+}
+
+
+.luxury{
+    background-color:  hsla(142, 100%, 13%, 0.719) ;
+    padding: 2em;
+    width:25%
+}
+.luxury h1{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.luxury button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 12px;
+    border-color: hsl(154, 97%, 15%) ;
+}
